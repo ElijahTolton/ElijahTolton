@@ -1,0 +1,195 @@
+body{
+    border: none;
+    margin: 0;
+    overflow: auto;
+    min-width: 1000px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 800px;
+    min-height: 600px;
+
+}
+
+#Backgrd1_cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+#Red_Square{
+    width: 70%;
+    height: 100%;
+    background-color: #BE0000;
+    z-index: 0;
+
+}
+#ZION_CINDER_CONE{
+    background: linear-gradient(to bottom, #707271 55%, black 90%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 20%;
+    border-radius: 30px 30px 0 0; /* 20px radius on all corners */
+
+} 
+U{
+    width: 0px;
+    height: 120px;
+}
+#U-cont{
+    position: absolute;
+    top: -30px;
+    right: 0%;
+    z-index: 1;
+   
+}
+
+#socialMedia_cont{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#facebook{
+    width: 180px;
+    height: 180px;
+}
+
+#linkedin{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#instagram{
+    width: 180px;
+    height: 180px;
+}
+
+#imgStack{
+    position: absolute;
+    top: 0vh;
+    right: 00;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 80%;
+}
+#java, #python, #html, #css, #github, #R{
+    width: 15vh;
+    height: 10vw;
+}
+
+#java{
+    width: 14vw;
+    height: 22vh;
+}
+#python{
+    width: 12vw;
+    height: 22vh;
+    margin-top: -25px;
+}
+#whiteBox{
+    width: 15vw;
+    height: 10vh;
+}
+
+#html{
+    width: 12vw;
+    height: 22vh;
+    margin-left: 25px;
+    margin-top: -25px;
+
+}
+#css{
+    width: 16vw;
+    height: 25vh;
+    margin-left: -25px;
+    margin-top: -35px;
+}
+
+#R{
+    margin-left: -35px;
+}
+
+#github{
+    margin-left: 45px;
+}
+
+
+#title1{
+    font-size: 70px;
+    font-weight: 800px;
+    font-style: italic;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+
+#title2{
+    font-size: 70px;
+    font-weight: 800px;
+    font-style: italic;
+    position: absolute;
+    top: 1%;
+    left: 35%;
+}
+
+#classBox{
+    width: 31vw;
+    height: 80vh;
+    position: absolute;
+    top: 16%;
+    left: 1%;
+}
+
+#high{
+    margin-top: 0px;
+}
+.date{
+    float: right;
+}
+ul{
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+#Note{
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    
+}
+
+#skillsBox{
+    position: absolute;
+    top: 15vh;
+    left: 36vw;
+    width: 30vw;
+    height: 60vh
+}
+#sub-title{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#skillsList{
+    margin-top: 15px;
+    font-size: 23px;
+}
+.skills{
+    margin-bottom: 5px;
+}

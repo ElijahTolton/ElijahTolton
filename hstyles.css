@@ -1,0 +1,98 @@
+body{
+    border: none;
+    margin: 0;
+    overflow: hidden;
+    min-width: 1000px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 800px;
+    min-height: 600px;
+
+}
+
+#Backgrd1_cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+#Red_Square{
+    width: 70%;
+    height: 100%;
+    background-color: #BE0000;
+    z-index: 0;
+
+}
+#ZION_CINDER_CONE{
+    background: linear-gradient(to bottom, #707271 55%, black 90%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 20%;
+    border-radius: 30px 30px 0 0; /* 20px radius on all corners */
+
+} 
+U{
+    width: 0px;
+    height: 120px;
+}
+#U-cont{
+    position: absolute;
+    top: -30px;
+    right: 0%;
+    z-index: 1;
+   
+}
+
+#socialMedia_cont{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#facebook{
+    width: 180px;
+    height: 180px;
+}
+
+#linkedin{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#instagram{
+    width: 180px;
+    height: 180px;
+}
+
+#sideImg{
+    position: absolute;
+    top: 0;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+}
+#running{
+    width: 300px;
+    height: 400px;
+}
+#soccer{
+    width: 200px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

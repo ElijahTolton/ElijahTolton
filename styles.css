@@ -1,0 +1,150 @@
+body{
+    border: none;
+    margin: 0;
+    overflow: hidden;
+    min-width: 1000px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 800px;
+    min-height: 600px;
+
+}
+
+#Backgrd1_cont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+#Red_Square{
+    width: 70%;
+    height: 100%;
+    background-color: #BE0000;
+    z-index: 0;
+
+}
+#ZION_CINDER_CONE{
+    background: linear-gradient(to bottom, #707271 55%, black 90%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 20%;
+    border-radius: 30px 30px 0 0; /* 20px radius on all corners */
+
+} 
+
+
+U{
+    width: 0px;
+    height: 120px;
+}
+#U-cont{
+    position: absolute;
+    top: -30px;
+    right: 0%;
+    z-index: 1;
+   
+}
+
+#headshot{
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    width: 350px;
+    height: 550px;
+    border: 5px groove #707271;
+}
+
+#title-cont{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    min-width: 500px;
+}
+
+#title{
+    padding: 0;
+    min-width: 500px;
+    font-size: 70px; ;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#category-cont{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    margin-top: 15px;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat{
+    font-size: 55px;
+    padding: 0;
+    font-style:italic;
+    
+}
+
+#name{
+    position: absolute;
+    bottom: 10.5%;
+    right: 14%;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.cat:hover{
+
+    background-color: #707271;
+}
+
+a:active{
+    color: white;
+}
+
+#socialMedia_cont{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#facebook{
+    width: 180px;
+    height: 180px;
+}
+
+#linkedin{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#instagram{
+    width: 180px;
+    height: 180px;
+}
